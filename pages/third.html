@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="../style/style3.css">
+    <script src="../js/app3.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="steps-hidden">
+            <ul class="hidden">
+                <li>1</li>
+                <li>2</li>
+                <li class="active">3</li>
+                <li>4</li>
+            </ul>
+        </div>
+        <div class="main-box">
+            <div class="steps-side">
+                <div class="steps">
+                    <ul>
+                        <li class="one">
+                            <p class="st-num"><span>step 1</span><br>your info</p>
+                        </li>
+                        <li class="two">
+                            <p class="st-num"><span>step 2</span><br>select plan</p>
+                        </li>
+                        <li class="three active">
+                            <p class="st-num"><span>step 3</span><br>add-ons</p>
+                        </li>
+                        <li class="four">
+                            <p class="st-num"><span>step 4</span><br>summary</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="selection-side">
+                <div class="side-heading">
+                    <h1>Pick add-ons</h1>
+                    <p>help enhance your gaming experience.</p>
+                </div>
+                <div class="hero">
+                    <div data-pr = "choosenPack1"  class="pack pack1">
+                        <input type="checkbox" class="check" id="pack1">
+                        <p><span data-name = "packName1" class="n">Online service</span><br><span class="v">Access to multiplayer games</span></p>
+                        <span class="price">$2</span>
+                    </div>
+                    <div data-pr = "choosenPack2"  class="pack pack1">
+                        <input type="checkbox" class="check" id="pack1">
+                        <p><span data-name = "packName2" class="n">Larger storage</span><br><span class="v">Extra 1TB of cloud save</span></p>
+                        <span class="price">$2</span>
+                    </div>
+                    <div data-pr = "choosenPack3"  class="pack pack1">
+                        <input type="checkbox" class="check" id="pack1">
+                        <p><span  data-name = "packName3" class="n">Customizable Profile</span><br><span class="v"> Custom theme on your profile </span></p>
+                        <span class="price">$2</span>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href="second.html">Get Back</a>
+                    <button class="locked">next step</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn2">
+            <a href="second.html">Get Back</a>
+            <button class="locked">next step</button>
+        </div>
+    </div>
+</body>
+</html>

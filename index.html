@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="steps-hidden">
+            <ul class="hidden">
+                <li class="active">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+        <div class="main-box">
+            <div class="steps-side">
+                <div class="steps">
+                    <ul>
+                        <li class="one active">
+                            <p class="st-num"><span>step 1</span><br>your info</p>
+                        </li>
+                        <li class="two">
+                            <p class="st-num"><span>step 2</span><br>select plan</p>
+                        </li>
+                        <li class="three">
+                            <p class="st-num"><span>step 3</span><br>add-ons</p>
+                        </li>
+                        <li class="four">
+                            <p class="st-num"><span>step 4</span><br>summary</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-side">
+                <div class="side-heading">
+                    <h1>Personal info</h1>
+                    <p>Please provide your name, email address, and phone number.</p>
+                </div>
+                <form action="#" autocomplete="off">
+                    <div class="inputs">
+                        <div class="name-field fields">
+                            <label for="name">name</label>
+                            <input class="" id="name" type="text" placeholder="e.g. Stephen King">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="email-field fields">
+                            <label for="email" >email</label>
+                            <input class="" id = 'email' type="text" placeholder="e.g. stephenking@lorem.com">
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="phone-field fields">
+                            <label for="phone">phone number</label>
+                            <input id="phone" type="text" placeholder="e.g. +1 234 567 890">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button class="locked">next step</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="btn2">
+            <button class="locked">next step</button>
+        </div>
+    </div>
+</body>
+</html>

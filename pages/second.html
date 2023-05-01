@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="../style/style2.css">
+    <script src="../js/app2.js" defer></script>
+</head>
+<body>
+    <div class="container">
+                <div class="steps-hidden">
+            <ul class="hidden">
+                <li >1</li>
+                <li class="active">2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+        <div class="main-box">
+            <div class="steps-side">
+                <div class="steps">
+                    <ul>
+                        <li class="one">
+                            <p class="st-num"><span>step 1</span><br>your info</p>
+                        </li>
+                        <li class="two active">
+                            <p class="st-num"><span>step 2</span><br>select plan</p>
+                        </li>
+                        <li class="three">
+                            <p class="st-num"><span>step 3</span><br>add-ons</p>
+                        </li>
+                        <li class="four">
+                            <p class="st-num"><span>step 4</span><br>summary</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="selection-side">
+                <div class="side-heading">
+                    <h1>Select your plan</h1>
+                    <p>You have the option of monthly or yearly billing.</p>
+                </div>
+                <div class="hero">
+                    <div class="card-container">
+                        <div class="cards card-one ">
+                            <div class="img-container">
+                                <img src="../images/icon-arcade.svg">
+                            </div>
+                            <div class="card-des">
+                                <h3>arcade</h3>
+                                <p class="price"> $90/yr </p>
+                                <span class="yearlyPlan">2 months free</span>
+                            </div>
+                        </div>
+                        <div class="cards card-two">
+                            <div class="img-container">
+                                <img src="../images/icon-advanced.svg">
+                            </div>
+                            <div class="card-des">
+                                <h3>advanced</h3>
+                                <p class="price"> $120/yr </p>
+                                <span class="yearlyPlan">2 months free</span>
+                            </div>
+                        </div>
+                        <div class="cards card-three">
+                            <div class="img-container">
+                                <img src="../images/icon-pro.svg">
+                            </div>
+                            <div class="card-des">
+                                <h3>pro</h3>
+                                <p class="price"> $150/yr </p>
+                                <span class="yearlyPlan">2 months free</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="toggler">
+                        <p id="month">monthly</p>
+                        <div class="switch">
+                            <input type="checkbox" id="switcher">
+                            <label for="switcher"></label>
+                        </div>
+                        <p id="year">yearly</p>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href="../index.html">Get Back</a>
+                    <button class="locked">next step</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn2">
+            <a href="../index.html">Get Back</a>
+            <button class="locked">next step</button>
+        </div>
+    </div>
+</body>
+</html>
